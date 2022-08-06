@@ -5,7 +5,7 @@
 |1	|	Modifier|
 |2	|	FormalParameter|
 |3	|	ReferenceType|
-|4	|	BasicType|
+|4	|	BasicType_1|
 |5	|	LocalVariableDeclaration|
 |6	|	VariableDeclarator|
 |7	|	MemberReference|
@@ -69,7 +69,7 @@
 |4	|	Modifier|
 |5	|	String|
 |6	|	DecimalInteger|
-|7	|	BasicType|
+|7	|	BasicType_2|
 |8	|	Boolean|
 |9	|	Annotation|
 |10	|	OctalInteger|
