@@ -60,3 +60,20 @@
 |56	|	InferredFormalParameter|
 
 ### 15 token types
+|ID            |Type name                     |
+|----------------|-------------------------------|
+|0	|	Separator|
+|1	|	Identifier|
+|2	|	Keyword|
+|3	|	Operator|
+|4	|	Modifier|
+|5	|	String|
+|6	|	DecimalInteger|
+|7	|	BasicType|
+|8	|	Boolean|
+|9	|	Annotation|
+|10	|	OctalInteger|
+|11	|	DecimalFloatingPoint|
+|12	|	HexInteger|
+|13	|	HexFloatingPoint|
+|14	|	Null|
