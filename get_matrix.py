@@ -21,7 +21,7 @@ nodetypedict = {'MethodDeclaration': 0, 'Modifier': 1, 'FormalParameter': 2, 'Re
      'ElementArrayValue': 47, 'TypeParameter': 48, 'FieldDeclaration': 49, 'SuperMemberReference': 50,
      'ContinueStatement': 51, 'ClassDeclaration': 52, 'TryResource': 53, 'MethodReference': 54,
      'LambdaExpression': 55, 'InferredFormalParameter': 56}
-tockendict = {'DecimalInteger': 57, 'HexInteger': 58, 'Identifier': 59, 'Keyword': 60, 'Modifier': 61, 'Null': 62,
+tokendict = {'DecimalInteger': 57, 'HexInteger': 58, 'Identifier': 59, 'Keyword': 60, 'Modifier': 61, 'Null': 62,
               'OctalInteger': 63, 'Operator': 64, 'Separator': 65, 'String': 66, 'Annotation': 67, 'BasicType': 68,
               'Boolean': 69, 'DecimalFloatingPoint': 70, 'HexFloatingPoint': 71}
 
@@ -165,17 +165,17 @@ def one_matrix(path, pkl_path=None):
             n = nodetypedict[name]
         except KeyError:
             try:
-                n = tockendict[typedict[name]]
+                n = tokendict[typedict[name]]
             except KeyError:
                 n = 62
         matrix[m][n] += 1
 
     for k in range(57):
         total = 0
-        for l in range(71):
+        for l in range(72):
             total += matrix[k][l]
         if total != 0:
-            for p in range(71):
+            for p in range(72):
                 matrix[k][p] = matrix[k][p]/total
 
     matrix = np.array(matrix)
@@ -186,7 +186,7 @@ def one_matrix(path, pkl_path=None):
     return matrix
 
 
-javapath = './googlejam4'
+javapath = './dataset/googlejam4/'
 def allmain():
     # Read all java files from a folder
     javalist = []
