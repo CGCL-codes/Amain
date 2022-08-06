@@ -11,7 +11,7 @@ Amain is mainly comprised of four phases: AST Generation, State Matrix Construct
 
 The source code and dataset of Amain are published here.
 
-## Project Structure  
+# Project Structure  
   
 ```shell  
 Amain  
@@ -42,7 +42,7 @@ python classification.py
 ```
 
 
-## Parameter details of our comparative tools
+# Parameter details of our comparative tools
 |Tool            |Parameters                     |
 |----------------|-------------------------------|
 |SourcererCC	|Min lines: 6, Similarity threshold: 0.7            |
