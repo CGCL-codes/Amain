@@ -58,3 +58,5 @@
 |54	|	MethodReference|
 |55	|	LambdaExpression|
 |56	|	InferredFormalParameter|
+
+### 15 token types
