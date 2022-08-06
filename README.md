@@ -23,14 +23,23 @@ Amain
 ### get_matrix.py
 - Input: dataset with source codes
 - Output: state transfer matrices of source codes 
+```
+python get_matrix.py
+```
 
 ### get_distance.py
 - Input: state transfer matrices and code pairs
 - Output: feature vectors of code pairs 
+```
+python get_distance.py
+```
 
 ### classification.py
 - Input: feature vectors of dataset
 - Output: recall, precision, and F1 scores of machine learning algorithms
+```
+python classification.py
+```
 
 ## Additional
 
