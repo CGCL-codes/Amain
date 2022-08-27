@@ -41,68 +41,6 @@ python get_distance.py
 python classification.py
 ```
 
-# 57 code syntax types
-|Tool            |Type name                      |
-|----------------|-------------------------------|
-|0	|	MethodDeclaration|
-|1	|	Modifier|
-|2	|	FormalParameter|
-|3	|	ReferenceType|
-|4	|	BasicType|
-|5	|	LocalVariableDeclaration|
-|6	|	VariableDeclarator|
-|7	|	MemberReference|
-|8	|	ArraySelector|
-|9	|	Literal|
-|10	|	BinaryOperation|
-|11	|	TernaryExpression|
-|12	|	IfStatement|
-|13	|	BlockStatement|
-|14	|	StatementExpression|
-|15	|	Assignment|
-|16	|	MethodInvocation|
-|17	|	Cast|
-|18	|	ForStatement|
-|19	|	ForControl|
-|20	|	VariableDeclaration|
-|21	|	TryStatement|
-|22	|	ClassCreator|
-|23	|	CatchClause|
-|24	|	CatchClauseParameter|
-|25	|	ThrowStatement|
-|26	|	WhileStatement|
-|27	|	ArrayInitializer|
-|28	|	ReturnStatement|
-|29	|	Annotation|
-|30	|	SwitchStatement|
-|31	|	SwitchStatementCase|
-|32	|	ArrayCreator|
-|33	|	This|
-|34	|	ConstructorDeclaration|
-|35	|	TypeArgument|
-|36	|	EnhancedForControl|
-|37	|	SuperMethodInvocation|
-|38	|	SynchronizedStatement|
-|39	|	DoStatement|
-|40	|	InnerClassCreator|
-|41	|	ExplicitConstructorInvocation|
-|42	|	BreakStatement|
-|43	|	ClassReference|
-|44	|	SuperConstructorInvocation|
-|45	|	ElementValuePair|
-|46	|	AssertStatement|
-|47	|	ElementArrayValue|
-|48	|	TypeParameter|
-|49	|	FieldDeclaration|
-|50	|	SuperMemberReference|
-|51	|	ContinueStatement|
-|52	|	ClassDeclaration|
-|53	|	TryResource|
-|54	|	MethodReference|
-|55	|	LambdaExpression|
-|56	|	InferredFormalParameter|
-
-
 # Parameter details of our comparative tools
 |Tool            |Parameters                     |
 |----------------|-------------------------------|
@@ -116,4 +54,18 @@ python classification.py
 |TBCNN      |Convolutional layer dim size: 300，dropout rate: 0.5, batch size: 10 |
 |FCCA      |Size of hidden states: 128(Text), 128(AST), embedding size: 300(Text), 300(AST), 64(CFG) clipping gradient range: (-1.2，1.2), epoch: 50, initial learning rate: 0.0005, dropout:0.6, batchsize: 32|
 
+# Publication
+Yueming Wu, Siyue Feng, Deqing Zou, and Hai Jin. 2022. Detecting Semantic Code Clones by Building AST-based Markov Chains Model. In 37th
+IEEE/ACM International Conference on Automated Software Engineering (ASE'22), October 10–14, 2022, Rochester, MI, USA. ACM, New York, NY,
+USA, 13 pages. https://doi.org/10.1145/3551349.3560426
+
+If you use our dataset or source code, please kindly cite our paper:
+```
+@INPROCEEDINGS{amain2022,
+  author={Wu, Yueming and Feng, Siyue and Zou, Deqing and Jin, Hai},
+  booktitle={2022 IEEE/ACM 37th International Conference on Automated Software Engineering (ASE)}, 
+  title={Detecting Semantic Code Clones by Building AST-based Markov Chains Model}, 
+  year={2022},
+  doi={10.1145/3551349.3560426}}
+```
 
